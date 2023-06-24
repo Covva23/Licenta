@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logoapp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp" />
+
+        <TextView
+            android:id="@+id/numeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:gravity="start"
+            android:text="Nume:" />
+
+        <TextView
+            android:id="@+id/valoareNumeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/prenumeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Prenume:"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/valoarePrenumeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/varstaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Vârsta:"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/valoareVarstaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/afectiuniTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Afectiuni:"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/valoareAfectiuniTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/telefonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Telefon:"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/valoareTelefonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Email:"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/valoareEmailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/nCTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Nume Contact:"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/valoareNCTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/pCTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Prenume Contact:"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/valoarePCTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/tCTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text="Telefon Contact:"
+            android:gravity="start" />
+        <TextView
+            android:id="@+id/valoareTCTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:text=""
+            android:gravity="start" />
+
+        <Button
+            android:id="@+id/incarcaDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Încarcă date"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_dark"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginBottom="20dp" />
+        <TextView
+            android:id="@+id/backToMainTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:text="Înapoi la Pagina Principală"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
