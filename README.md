@@ -1,7 +1,7 @@
 # Licenta
 
 Pasii pentru rularea proiectului:
-1. Clonarea proiectului (git clone)
+1. Clonarea proiectului (git clone) sau se descarca arhiva .zip
 2. Deschiderea proiectului in Android Studio File->Open->locatia proiectului
 3. Se apasa make project
 4. In device manager se creeaza un nou dispozitiv virtual
